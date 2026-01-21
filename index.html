@@ -1,0 +1,588 @@
+<html lang="en" class="scroll-smooth"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English with Jaleel Sir | Master English Simply</title>
+    <meta name="description" content="Learn English Simply. Speak Confidently. Join Jaleel Sir for daily lessons, grammar, vocabulary, and exam preparation.">
+    
+    <!-- Fonts: Inter for clean, professional look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Iconify for Solar Icons -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+        .video-card:hover .play-button {
+            transform: scale(1.1);
+            background-color: #ef4444; /* YouTube Red */
+            color: white;
+        }
+        /* Hide scrollbar for horizontal scrolling areas but keep functionality */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-600 selection:bg-blue-100 selection:text-blue-700">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 z-50 w-full border-b border-slate-100 bg-white/80 backdrop-blur-md">
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-2 group">
+                <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                    <iconify-icon icon="solar:book-bookmark-linear" width="20" stroke-width="1.5"></iconify-icon>
+                </div>
+                <span class="text-lg font-semibold tracking-tight text-slate-900">Jaleel<span class="text-slate-400 font-normal">Sir</span></span>
+            </a>
+
+            <!-- Desktop Links -->
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#home" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Home</a>
+                <a href="#about" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">About</a>
+                <a href="#videos" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Videos</a>
+                <a href="#courses" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Courses</a>
+                <a href="#resources" class="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">Resources</a>
+            </div>
+
+            <!-- CTA -->
+            <div class="hidden md:flex items-center gap-4">
+                <a href="https://youtube.com" target="_blank" class="flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-900 transition-all hover:bg-slate-50 hover:border-slate-300">
+                    <iconify-icon icon="solar:play-circle-linear" width="18" class="text-red-500"></iconify-icon>
+                    Subscribe
+                </a>
+                <a href="#contact" class="rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white transition-all hover:bg-slate-800 hover:shadow-lg hover:shadow-slate-200/50">
+                    Contact
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="flex md:hidden items-center justify-center rounded-md p-2 text-slate-600 hover:bg-slate-50">
+                <iconify-icon icon="solar:hamburger-menu-linear" width="24"></iconify-icon>
+            </button>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden border-t border-slate-100 bg-white md:hidden">
+            <div class="flex flex-col gap-1 p-4">
+                <a href="#home" class="rounded-lg px-4 py-3 text-sm font-medium text-slate-600 hover:bg-slate-50">Home</a>
+                <a href="#about" class="rounded-lg px-4 py-3 text-sm font-medium text-slate-600 hover:bg-slate-50">About</a>
+                <a href="#videos" class="rounded-lg px-4 py-3 text-sm font-medium text-slate-600 hover:bg-slate-50">Videos</a>
+                <a href="#courses" class="rounded-lg px-4 py-3 text-sm font-medium text-slate-600 hover:bg-slate-50">Courses</a>
+                <a href="#contact" class="rounded-lg bg-slate-900 px-4 py-3 text-center text-sm font-medium text-white">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative overflow-hidden pt-32 pb-16 lg:pt-40 lg:pb-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+                <!-- Content -->
+                <div class="flex flex-col items-start gap-6">
+                    <div class="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50/50 px-3 py-1 text-xs font-medium text-blue-700">
+                        <span class="flex h-2 w-2 rounded-full bg-blue-600 animate-pulse"></span>
+                        New Video Every Tuesday
+                    </div>
+                    <h1 class="text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+                        Master English with <br class="hidden lg:block">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Jaleel Sir</span>
+                    </h1>
+                    <p class="max-w-xl text-lg text-slate-500 leading-relaxed">
+                        Simplify your learning journey. From daily grammar fixes to confident spoken English, join thousands of students mastering the language today.
+                    </p>
+                    <div class="flex flex-col w-full sm:flex-row gap-4">
+                        <a href="https://youtube.com" target="_blank" class="flex items-center justify-center gap-2 rounded-full bg-red-600 px-8 py-3.5 text-sm font-medium text-white transition-all hover:bg-red-700 hover:shadow-lg hover:shadow-red-200">
+                            <iconify-icon icon="solar:play-stream-linear" width="20"></iconify-icon>
+                            Subscribe on YouTube
+                        </a>
+                        <a href="#courses" class="flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-8 py-3.5 text-sm font-medium text-slate-700 transition-all hover:border-slate-300 hover:bg-slate-50">
+                            Explore Courses
+                        </a>
+                    </div>
+                    <!-- Social Proof -->
+                    <div class="mt-4 flex items-center gap-4 text-sm text-slate-500">
+                        <div class="flex -space-x-2">
+                            <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white grayscale opacity-70" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=64&amp;h=64" alt="">
+                            <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white grayscale opacity-70" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&amp;fit=crop&amp;w=64&amp;h=64" alt="">
+                            <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white grayscale opacity-70" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&amp;fit=crop&amp;w=64&amp;h=64" alt="">
+                        </div>
+                        <p>Joined by <span class="font-semibold text-slate-900">150K+</span> learners</p>
+                    </div>
+                </div>
+                
+                <!-- Visual -->
+                <div class="relative lg:h-full">
+                    <div class="relative aspect-square overflow-hidden rounded-2xl bg-slate-100 lg:aspect-[4/3]">
+                        <!-- Abstract Background Decoration -->
+                        <div class="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-blue-50 blur-3xl opacity-50"></div>
+                        <div class="absolute -left-20 -bottom-20 h-64 w-64 rounded-full bg-indigo-50 blur-3xl opacity-50"></div>
+                        
+                        <!-- Image -->
+                        <img src="https://yt3.googleusercontent.com/WyXLNDaBTfTqHjWNb9N1O_sixqBzmlJe3PsaWNxUq6dv3ZScWF7aOa4byzX-K7JMmOo-mMlopw=s160-c-k-c0x00ffffff-no-rj" alt="Jaleel Sir Teaching" class="h-full w-full object-cover object-center relative z-10 transition-transform hover:scale-105 duration-700">
+                        
+                        <!-- Floating Card -->
+                        <div class="absolute bottom-6 left-6 right-6 z-20 rounded-xl border border-white/20 bg-white/90 backdrop-blur-md p-4 shadow-xl shadow-slate-200/50">
+                            <div class="flex items-center gap-4">
+                                <div class="flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-green-600">
+                                    <iconify-icon icon="solar:check-circle-bold" width="20"></iconify-icon>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-medium text-slate-500">Latest Achievement</p>
+                                    <p class="text-sm font-semibold text-slate-900">1M+ Views on Grammar Basics</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You'll Learn -->
+    <section class="py-16 bg-slate-50">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mb-12 text-center">
+                <h2 class="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">What You'll Learn</h2>
+                <p class="mt-4 text-slate-500">Comprehensive resources for every stage of your English journey.</p>
+            </div>
+            
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                <!-- Feature 1 -->
+                <div class="group rounded-2xl border border-slate-200 bg-white p-6 transition-all hover:border-blue-200 hover:shadow-md">
+                    <div class="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                        <iconify-icon icon="solar:pen-new-square-linear" width="20"></iconify-icon>
+                    </div>
+                    <h3 class="text-lg font-medium text-slate-900">Grammar Rules</h3>
+                    <p class="mt-2 text-sm text-slate-500">Master tenses, voice, and narration with simple logic, not rote memorization.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="group rounded-2xl border border-slate-200 bg-white p-6 transition-all hover:border-blue-200 hover:shadow-md">
+                    <div class="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-50 text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                        <iconify-icon icon="solar:chat-round-line-linear" width="20"></iconify-icon>
+                    </div>
+                    <h3 class="text-lg font-medium text-slate-900">Spoken English</h3>
+                    <p class="mt-2 text-sm text-slate-500">Gain fluency and confidence for interviews, daily life, and professional settings.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="group rounded-2xl border border-slate-200 bg-white p-6 transition-all hover:border-blue-200 hover:shadow-md">
+                    <div class="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-violet-50 text-violet-600 group-hover:bg-violet-600 group-hover:text-white transition-colors">
+                        <iconify-icon icon="solar:book-2-linear" width="20"></iconify-icon>
+                    </div>
+                    <h3 class="text-lg font-medium text-slate-900">Vocabulary</h3>
+                    <p class="mt-2 text-sm text-slate-500">Expand your word power with daily idioms, phrasal verbs, and synonyms.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="group rounded-2xl border border-slate-200 bg-white p-6 transition-all hover:border-blue-200 hover:shadow-md">
+                    <div class="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-orange-50 text-orange-600 group-hover:bg-orange-600 group-hover:text-white transition-colors">
+                        <iconify-icon icon="solar:diploma-verified-linear" width="20"></iconify-icon>
+                    </div>
+                    <h3 class="text-lg font-medium text-slate-900">Competitive Exams</h3>
+                    <p class="mt-2 text-sm text-slate-500">Targeted preparation for SSC, Banking, and other government job exams.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 lg:py-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col-reverse gap-12 lg:grid lg:grid-cols-2 lg:items-center">
+                <div class="relative">
+                    <div class="absolute -left-4 -top-4 h-full w-full rounded-2xl bg-slate-100"></div>
+                    <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Jaleel Sir Profile" class="relative z-10 rounded-2xl object-cover shadow-lg grayscale transition-all hover:grayscale-0">
+                </div>
+                <div class="flex flex-col gap-6">
+                    <h2 class="text-3xl font-semibold tracking-tight text-slate-900">Who is Jaleel Sir?</h2>
+                    <div class="space-y-4 text-slate-600">
+                        <p>
+                            Hello! I’m Jaleel. For over 10 years, I’ve been helping students break down the barriers of the English language. My philosophy is simple: <strong class="text-slate-900 font-medium">English is a skill, not just a subject.</strong>
+                        </p>
+                        <p>
+                            Whether you are preparing for a competitive exam or just want to speak without hesitation, my teaching method focuses on logic and practical usage rather than confusing rules.
+                        </p>
+                        <p>
+                            Join me on YouTube where we simplify the complex, one video at a time.
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-3 gap-4 border-t border-slate-100 pt-6">
+                        <div>
+                            <p class="text-2xl font-semibold text-slate-900">10+</p>
+                            <p class="text-xs text-slate-500 uppercase tracking-wider">Years Exp.</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl font-semibold text-slate-900">5k+</p>
+                            <p class="text-xs text-slate-500 uppercase tracking-wider">Selections</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl font-semibold text-slate-900">1M+</p>
+                            <p class="text-xs text-slate-500 uppercase tracking-wider">Video Views</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Library -->
+    <section id="videos" class="py-16 bg-slate-50">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+                <div>
+                    <h2 class="text-2xl font-semibold tracking-tight text-slate-900">Latest Lessons</h2>
+                    <p class="mt-2 text-slate-500 text-sm">Watch, learn, and practice directly from YouTube.</p>
+                </div>
+                <!-- Filters -->
+                <div class="flex flex-wrap gap-2" id="video-filters">
+                    <button class="filter-btn active rounded-full bg-slate-900 px-4 py-1.5 text-xs font-medium text-white transition-all" data-filter="all">All</button>
+                    <button class="filter-btn rounded-full border border-slate-200 bg-white px-4 py-1.5 text-xs font-medium text-slate-600 hover:border-slate-300 transition-all" data-filter="grammar">Grammar</button>
+                    <button class="filter-btn rounded-full border border-slate-200 bg-white px-4 py-1.5 text-xs font-medium text-slate-600 hover:border-slate-300 transition-all" data-filter="spoken">Spoken</button>
+                    <button class="filter-btn rounded-full border border-slate-200 bg-white px-4 py-1.5 text-xs font-medium text-slate-600 hover:border-slate-300 transition-all" data-filter="exam">Exams</button>
+                </div>
+            </div>
+
+            <!-- Video Grid -->
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3" id="video-grid">
+                <!-- Video Card 1 -->
+                <div class="video-card group cursor-pointer" data-category="grammar">
+                    <div class="relative aspect-video overflow-hidden rounded-xl bg-slate-200">
+                        <img src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Thumbnail" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 transition-opacity group-hover:opacity-100">
+                            <div class="play-button flex h-12 w-12 items-center justify-center rounded-full bg-white/90 text-slate-900 shadow-lg transition-transform duration-300">
+                                <iconify-icon icon="solar:play-bold" width="24"></iconify-icon>
+                            </div>
+                        </div>
+                        <span class="absolute bottom-2 right-2 rounded bg-black/70 px-1.5 py-0.5 text-[10px] font-medium text-white">10:45</span>
+                    </div>
+                    <div class="mt-3">
+                        <h3 class="text-base font-medium text-slate-900 line-clamp-2 group-hover:text-blue-600 transition-colors">12 Tenses in English Grammar | Complete Guide</h3>
+                        <div class="mt-1 flex items-center gap-2 text-xs text-slate-500">
+                            <span>Grammar</span>
+                            <span>•</span>
+                            <span>25K views</span>
+                            <span>•</span>
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Card 2 -->
+                <div class="video-card group cursor-pointer" data-category="spoken">
+                    <div class="relative aspect-video overflow-hidden rounded-xl bg-slate-200">
+                        <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Thumbnail" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 transition-opacity group-hover:opacity-100">
+                            <div class="play-button flex h-12 w-12 items-center justify-center rounded-full bg-white/90 text-slate-900 shadow-lg transition-transform duration-300">
+                                <iconify-icon icon="solar:play-bold" width="24"></iconify-icon>
+                            </div>
+                        </div>
+                        <span class="absolute bottom-2 right-2 rounded bg-black/70 px-1.5 py-0.5 text-[10px] font-medium text-white">08:20</span>
+                    </div>
+                    <div class="mt-3">
+                        <h3 class="text-base font-medium text-slate-900 line-clamp-2 group-hover:text-blue-600 transition-colors">Stop Saying "Very Good" - Use These 5 Alternatives</h3>
+                        <div class="mt-1 flex items-center gap-2 text-xs text-slate-500">
+                            <span>Spoken</span>
+                            <span>•</span>
+                            <span>12K views</span>
+                            <span>•</span>
+                            <span>5 days ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Card 3 -->
+                <div class="video-card group cursor-pointer" data-category="exam">
+                    <div class="relative aspect-video overflow-hidden rounded-xl bg-slate-200">
+                        <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Thumbnail" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 transition-opacity group-hover:opacity-100">
+                            <div class="play-button flex h-12 w-12 items-center justify-center rounded-full bg-white/90 text-slate-900 shadow-lg transition-transform duration-300">
+                                <iconify-icon icon="solar:play-bold" width="24"></iconify-icon>
+                            </div>
+                        </div>
+                        <span class="absolute bottom-2 right-2 rounded bg-black/70 px-1.5 py-0.5 text-[10px] font-medium text-white">45:00</span>
+                    </div>
+                    <div class="mt-3">
+                        <h3 class="text-base font-medium text-slate-900 line-clamp-2 group-hover:text-blue-600 transition-colors">SSC CGL Previous Year Question Paper Discussion</h3>
+                        <div class="mt-1 flex items-center gap-2 text-xs text-slate-500">
+                            <span>Exams</span>
+                            <span>•</span>
+                            <span>8K views</span>
+                            <span>•</span>
+                            <span>1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <a href="https://youtube.com" class="inline-flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-slate-900">
+                    View Channel
+                    <iconify-icon icon="solar:arrow-right-linear" width="16"></iconify-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-16">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-2xl font-semibold tracking-tight text-slate-900">Premium Learning Paths</h2>
+                <p class="mt-2 text-slate-500">Structured courses to accelerate your growth.</p>
+            </div>
+
+            <div class="grid gap-8 md:grid-cols-3">
+                <!-- Course 1 -->
+                <div class="group relative flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 transition-all hover:border-blue-200 hover:shadow-lg">
+                    <div>
+                        <div class="mb-4 flex items-center justify-between">
+                            <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600">
+                                <iconify-icon icon="solar:chat-square-like-linear" width="22"></iconify-icon>
+                            </div>
+                            <span class="rounded-full bg-green-50 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-green-600">Open</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-slate-900">Spoken English Mastery</h3>
+                        <p class="mt-3 text-sm text-slate-500">A 30-day challenge to transform how you speak. Focus on pronunciation, fluency, and hesitation removal.</p>
+                        <ul class="mt-4 space-y-2">
+                            <li class="flex items-center gap-2 text-xs text-slate-600">
+                                <iconify-icon icon="solar:check-circle-linear" class="text-green-500"></iconify-icon> Live Practice Sessions
+                            </li>
+                            <li class="flex items-center gap-2 text-xs text-slate-600">
+                                <iconify-icon icon="solar:check-circle-linear" class="text-green-500"></iconify-icon> 50+ Recorded Lessons
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-6">
+                        <button class="w-full rounded-lg bg-slate-900 py-2.5 text-sm font-medium text-white transition-all hover:bg-slate-800">Enroll Now</button>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="group relative flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 transition-all hover:border-blue-200 hover:shadow-lg">
+                    <div>
+                        <div class="mb-4 flex items-center justify-between">
+                            <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-orange-50 text-orange-600">
+                                <iconify-icon icon="solar:book-bookmark-linear" width="22"></iconify-icon>
+                            </div>
+                            <span class="rounded-full bg-slate-100 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-slate-500">Coming Soon</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-slate-900">Grammar Zero to Hero</h3>
+                        <p class="mt-3 text-sm text-slate-500">The ultimate guide to English grammar. Covering every topic from basics to advanced modifiers.</p>
+                        <ul class="mt-4 space-y-2">
+                            <li class="flex items-center gap-2 text-xs text-slate-600">
+                                <iconify-icon icon="solar:check-circle-linear" class="text-green-500"></iconify-icon> PDF Worksheets
+                            </li>
+                            <li class="flex items-center gap-2 text-xs text-slate-600">
+                                <iconify-icon icon="solar:check-circle-linear" class="text-green-500"></iconify-icon> Lifetime Access
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-6">
+                        <button class="w-full cursor-not-allowed rounded-lg border border-slate-200 bg-slate-50 py-2.5 text-sm font-medium text-slate-400" disabled="">Join Waitlist</button>
+                    </div>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="group relative flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 transition-all hover:border-blue-200 hover:shadow-lg">
+                    <div>
+                        <div class="mb-4 flex items-center justify-between">
+                            <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
+                                <iconify-icon icon="solar:case-linear" width="22"></iconify-icon>
+                            </div>
+                            <span class="rounded-full bg-slate-100 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-slate-500">Coming Soon</span>
+                        </div>
+                        <h3 class="text-lg font-semibold text-slate-900">Exam English Cracker</h3>
+                        <p class="mt-3 text-sm text-slate-500">Specifically designed for Banking &amp; SSC aspirants. Learn tips and tricks to solve questions in seconds.</p>
+                        <ul class="mt-4 space-y-2">
+                            <li class="flex items-center gap-2 text-xs text-slate-600">
+                                <iconify-icon icon="solar:check-circle-linear" class="text-green-500"></iconify-icon> Mock Tests Included
+                            </li>
+                            <li class="flex items-center gap-2 text-xs text-slate-600">
+                                <iconify-icon icon="solar:check-circle-linear" class="text-green-500"></iconify-icon> Doubt Clearing
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-6">
+                        <button class="w-full cursor-not-allowed rounded-lg border border-slate-200 bg-slate-50 py-2.5 text-sm font-medium text-slate-400" disabled="">Join Waitlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Resources & Newsletter -->
+    <section id="resources" class="py-16 bg-slate-900 text-white">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+                <div>
+                    <h2 class="text-3xl font-semibold tracking-tight">Free Study Material</h2>
+                    <p class="mt-4 text-slate-400">Get access to my exclusive PDF notes, vocabulary lists, and practice sheets sent directly to your inbox.</p>
+                    
+                    <ul class="mt-8 space-y-4">
+                        <li class="flex items-center gap-3">
+                            <div class="flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-blue-400">
+                                <iconify-icon icon="solar:file-text-linear" width="18"></iconify-icon>
+                            </div>
+                            <span class="text-sm font-medium text-slate-200">500 Important Vocabulary Words PDF</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div class="flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-blue-400">
+                                <iconify-icon icon="solar:file-text-linear" width="18"></iconify-icon>
+                            </div>
+                            <span class="text-sm font-medium text-slate-200">Tense Chart &amp; Rules Cheat Sheet</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div class="flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-blue-400">
+                                <iconify-icon icon="solar:file-text-linear" width="18"></iconify-icon>
+                            </div>
+                            <span class="text-sm font-medium text-slate-200">Daily Practice Worksheets</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm">
+                    <h3 class="text-lg font-medium text-white">Join the Newsletter</h3>
+                    <p class="mt-2 text-sm text-slate-400">No spam. Just quality English lessons weekly.</p>
+                    
+                    <form class="mt-6 flex flex-col gap-4" onsubmit="event.preventDefault(); alert('Subscribed!')">
+                        <div>
+                            <label for="email" class="sr-only">Email address</label>
+                            <input type="email" id="email" name="email" class="w-full rounded-lg border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder-slate-500 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500" placeholder="Enter your email address" required="">
+                        </div>
+                        <button type="submit" class="w-full rounded-lg bg-blue-600 py-3 text-sm font-medium text-white transition-all hover:bg-blue-700">Get Free Resources</button>
+                    </form>
+                    <p class="mt-4 text-xs text-slate-500">By subscribing, you agree to receive emails from English with Jaleel Sir.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-2xl font-semibold tracking-tight text-slate-900">Get in Touch</h2>
+                <p class="mt-2 text-slate-500">Have a question or want to inquire about batches?</p>
+            </div>
+            
+            <form class="space-y-4">
+                <div class="grid gap-4 sm:grid-cols-2">
+                    <div>
+                        <label for="name" class="block text-xs font-medium text-slate-700 mb-1">Name</label>
+                        <input type="text" id="name" class="w-full rounded-lg border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label for="phone" class="block text-xs font-medium text-slate-700 mb-1">Phone (Optional)</label>
+                        <input type="tel" id="phone" class="w-full rounded-lg border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500" placeholder="+91 99999 99999">
+                    </div>
+                </div>
+                <div>
+                    <label for="message" class="block text-xs font-medium text-slate-700 mb-1">Message</label>
+                    <textarea id="message" rows="4" class="w-full rounded-lg border border-slate-200 bg-slate-50 px-4 py-2.5 text-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500" placeholder="How can I help you?"></textarea>
+                </div>
+                <button type="submit" class="w-full rounded-lg bg-slate-900 py-3 text-sm font-medium text-white transition-all hover:bg-slate-800">Send Message</button>
+            </form>
+
+            <!-- Social Links -->
+            <div class="mt-10 flex justify-center gap-6">
+                <a href="#" class="text-slate-400 hover:text-red-600 transition-colors">
+                    <iconify-icon icon="solar:youtube-linear" width="24"></iconify-icon>
+                </a>
+                <a href="#" class="text-slate-400 hover:text-pink-600 transition-colors">
+                    <iconify-icon icon="solar:instagram-linear" width="24"></iconify-icon>
+                </a>
+                <a href="#" class="text-slate-400 hover:text-blue-600 transition-colors">
+                    <iconify-icon icon="solar:facebook-linear" width="24"></iconify-icon>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-100 bg-white py-8">
+        <div class="mx-auto flex max-w-7xl flex-col items-center justify-between px-4 sm:flex-row sm:px-6 lg:px-8">
+            <div class="flex items-center gap-2 mb-4 sm:mb-0">
+                <div class="flex h-6 w-6 items-center justify-center rounded bg-slate-100 text-slate-600">
+                    <iconify-icon icon="solar:book-bookmark-linear" width="14"></iconify-icon>
+                </div>
+                <span class="text-sm font-medium text-slate-900">English with Jaleel Sir</span>
+            </div>
+            <p class="text-xs text-slate-500">© 2024 Jaleel Sir. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/" target="_blank" class="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg transition-transform hover:scale-110 hover:shadow-xl" aria-label="Chat on WhatsApp">
+        <iconify-icon icon="solar:chat-round-dots-bold" width="28"></iconify-icon>
+    </a>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Simple Filter Logic for Videos
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const videoCards = document.querySelectorAll('.video-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => {
+                    b.classList.remove('bg-slate-900', 'text-white');
+                    b.classList.add('bg-white', 'text-slate-600');
+                    b.classList.add('border', 'border-slate-200');
+                });
+                
+                // Add active class to clicked button
+                btn.classList.remove('bg-white', 'text-slate-600', 'border', 'border-slate-200');
+                btn.classList.add('bg-slate-900', 'text-white');
+
+                const filterValue = btn.getAttribute('data-filter');
+
+                videoCards.forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+</body></html>
